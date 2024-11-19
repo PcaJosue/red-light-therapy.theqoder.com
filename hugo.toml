@@ -1,8 +1,9 @@
 baseURL = 'http://localhost:1313/'
 languageCode = "en-us"
 title = "Infrared Therapy Lamp | Your Path to Recovery"
-theme = ""
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 [params]
   author = "Josue Pacheco"
+[modules]
+  disable = true
