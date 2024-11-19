@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://red-light-therapy.theqoder.com/'
 languageCode = "en-us"
 title = "Infrared Therapy Lamp | Your Path to Recovery"
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -7,3 +7,6 @@ enableGitInfo = true
   author = "Josue Pacheco"
 [modules]
   disable = true
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
